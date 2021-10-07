@@ -1,1 +1,274 @@
-"hello world" 
+<!DOCTYPE html>
+<html lang="en">
+    <!-- #region [rgba(50,5,10,0.2)]  -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عيادات الاسنان</title>
+     
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link
+rel="stylesheet"
+href="https://unpkg.com/img-comparison-slider@7/dist/styles.css"
+/>
+<script
+  defer
+  src="https://unpkg.com/img-comparison-slider@7/dist/index.js"
+></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="main.css">
+</head>
+<!-- #endregion -->
+<body>
+    
+    <!-- #region [rgba(12,20,100,0.2)] -->
+    <div class="header sticks" id="myHeader"> 
+        <a href="index.html"><h2 style="color : var(--main-color); margin-left : 30px; ">LOGO</h2></a>
+            <div class="icon" onclick="myFunction()"><i id="icon" class="fas fa-bars fa-3x"></i></div>
+            <div class="links"> 
+                <ul>
+                    <li><a href="index.html#about"><div class="clickableareabig">من نحن</div></a></li>
+                    <li><a href="index.html#service"><div class="clickableareabig">الخدمات</div></a></li>
+                    <li><a href="index.html#contact"><div class="clickableareabig">تواصل معنا</div></a></li>
+                    <li><a href="index.html#location"><div class="clickableareabig">نورنا</div></a></li>
+                    
+                </ul>
+            </div>  
+    </div>
+    <div class="menu sticks" id="menu">
+        <div class="menulinks"> 
+            <ul>
+                
+                <li><a href="index.html#about"> <div class="clickablearea">من نحن</div></a></li>
+                <li><a href="index.html#service"> <div class="clickablearea">الخدمات</div></a></li>
+                <li><a href="index.html#contact"> <div class="clickablearea">تواصل معنا</div></a></li>
+                <li><a href="index.html#location"><div class="clickablearea">نورنا</div></a></li>
+            </ul>
+        </div>  
+    </div>
+    <!-- #endregion -->
+    <!-- satrt page content -->
+    <!-- whatsapp contact -->
+    <div class="whatsappcontact">
+        <a href= "https://wa.me/201279347434" class="float" target="_blank">
+            <i class="fab fa-whatsapp  my-float"></i>
+            </a>
+    </div>
+    <!-- end whatsapp contact -->
+    <!-- start news -->
+    <div class="landing">
+        <div class="intro-text">
+          <h1>مرحبا بك</h1>
+          <p> في في موقعنا </p>
+        </div>
+    </div>
+    <!-- end news -->
+    <!-- start about -->
+    <div class="about2" id="about">
+        <div class="container">
+            <div class="text" data-aos="slide-left" data-aos-duration="1500">
+                <h2>
+                    من نحن
+                </h2>
+                <p>
+                    عيادة الاسنان اللي تم انشاءها عام 19xx نحن نقدم الجودة و الراحة و الامان و نسعى دائما في كل وقت الي ضمان ثبات الجودة الراءعة في جميع فروعنا .  نتمني دائما سعادتكم و رضاء جميع عملاءناو نتمني لكم السلامة
+                </p>
+       </div>
+      <div class="image" data-aos="slide-right" data-aos-duration="1500">
+        <img class= "mySlides  " src="images/smiling guy.jpg" alt="">
+        <img  class= "mySlides " src="images/smiling guy2.jpg" alt="">
+        <img  class= "mySlides " src="images/smiling kid.jpg" alt="">
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div class="dots" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+        </div>
+        </div>
+    </div>
+    <!-- end about -->
+
+    <!-- start sevices -->
+    
+    <div class="services"  >
+        <div class="serviceDetermen" id="service"></div>
+        <div class="container" >
+            <h1 data-aos="zoom-in" data-aos-duration="1000">خدماتنا</h1>
+            <div class="serviceboxes">
+                <a href="veneers_service.html"><div class="servicebox" style="transition: 0.3s;" data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="Services_icon/One.png" alt="">
+                    <h3>فينيرز</h3>
+                </div></a>
+                <a href="implant_service.html"><div class="servicebox" style="transition: 0.3s;" data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="Services_icon/two.png" alt="">
+                    <h3>زراعة</h3>
+                </div></a>
+                <a href="crown_service.html"><div class="servicebox" style="transition: 0.3s;" data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="Services_icon/three.png" alt="">
+                    <h3>تركيبات الاسنان</h3>
+                </div></a>
+              
+                <a href="ortho_service.html"><div class="servicebox" style="transition: 0.3s;" data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="Services_icon/ortho.png" alt="">
+                    <h3>تقويم</h3>
+                </div></a>
+                <a href="whitening_service.html"><div class="servicebox" style="transition: 0.3s;" data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="Services_icon/quality.png" alt="">
+                    <h3>التبييض</h3>
+                </div></a>
+
+                <a href="endo_service.html"><div class="servicebox" style="transition: 0.3s;" data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="Services_icon/six.png" alt="">
+                    <h3>حشو</h3>
+                </div></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>   
+    <!-- end services -->
+  
+    <!-- start contact -->
+    <div class="contact" id="contact">
+        <div class="container" data-aos="slide-right" data-aos-duration="1000">
+            <div class="contactuscontainer">
+                <h3>تواصل معنا</h3>
+                <h2>لا تتردد في التواصل معنا لأي استفسار</h2>
+                <div class="contactinsideflex">
+                    <a href="https://wa.me/201279347434" class="whats contactt" id="whats">
+                        <i class="fab fa-whatsapp fa-4x"></i>
+                    </a>
+                    <a href="tel:+201279347434" class="phone contactt">+201279347434</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end contact -->
+  
+    <!-- location -->
+    <div class="location2" id="location">
+        <div class="container" style="text-align: center;" data-aos="zoom-in" data-aos-duration="1000">
+            <h1 style="color: #BF9330; margin-bottom: 5px;">نورونا </h1>
+            <h3>
+                <a href="https://goo.gl/maps/yyx3Jk8hLeJHzMxJA"> القاهرة </a>
+            </h3>
+            
+            <div class="location" style="padding:50px 0">
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe style="width: 100%; height: 300px;" id="gmap_canvas" src="https://maps.google.com/maps?q=cairo%20,%20egypt%20&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <style>.gmap_canvas {overflow:hidden;background:none!important;}</style></div></div>
+                    </div>
+                </div>
+            </div> 
+    
+    <!-- end location -->
+    <!-- start footer -->
+     <footer>
+         <div class="container">
+             <div class="logosection">
+                 <div class="img">
+                     <h2>Your Logo</h2>
+                     <p class="imgcaption">مرحبا بك في عيادة الاسنان الخاصة بك<br>احد افضل عيادات الاسنان في مصر</p>
+                 </div>
+             </div>
+             <div class="workinghourssection">
+                 <h3 class="workinghoursh3">اوقات العمل</h3>
+                 <p class="workinghoursparagraph">24 ساعة طوال ايام الاسبوع</p>
+             </div>
+             <div class="websitelinkssection">
+                 <h3 class="websitelinksh3">روابط الموقع</h3>
+                 <a href="#about" class="websitelinks">من نحن</a>
+                 <a href="#service" class="websitelinks">خدماتنا</a>
+                 <a href="#contact" class="websitelinks">تواصل معنا</a>
+                 <a href="#location" class="websitelinks">نورنا</a>
+             </div>
+             <div class="followussection">
+                 <h3 class="followush3">تابعنا</h3>
+                 <a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-3x"></i></a>
+                 <a href="https://www.instagram.com/"><i class="fab fa-instagram-square fa-3x"></i></a>
+                 <a href="https://twitter.com/"><i class="fab fa-twitter-square fa-3x"></i></a>
+                 <a href="https://www.snapchat.com/"><i class="fab fa-snapchat-square fa-3x"></i></a>
+             </div>
+         </div>
+     </footer>
+     <div class="copyright">
+         <span>Copyright © 2021 Dr.Mostafa Ali</span>
+         <span id="powered">Powered by  <a href="https://www.facebook.com/profile.php?id=100010287515884">Youssuf Mostafa </a></span>
+     </div>
+    <!-- end footer -->
+    <!-- end page content -->
+    <!-- #region [rgba(255,100,21,0.2)] -->
+    <script  src="function.js"></script>
+    <script type="text/javascript" src="main.js"></script> 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      AOS.init({
+  once: true
+    });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+<script>
+    window.onscroll = function() {myFunction2()};
+    
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+    var menu = document.getElementById("menu")
+    
+    function myFunction2() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+        menu.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+        menu.classList.remove("sticky");
+      }
+    }
+    </script>
+<script>
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+<!-- #endregion -->
+<!-- <a href="https://www.vecteezy.com/free-vector/icons">Icons Vectors by Vecteezy</a> -->
+</body>
+</html>
+
+
