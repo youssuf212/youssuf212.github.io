@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+ <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2447FF"/><stop offset="1" stop-color="#0F2AB8"/></linearGradient></defs>
+ <rect width="1024" height="1024" fill="url(#g)"/>
+ <text x="512" y="790" text-anchor="middle" font-family="Inter Display" font-weight="900" font-size="820" letter-spacing="-30" fill="#fff">G</text>
+ <!-- axis cutting through the letter -->
+ <line x1="676" y1="80" x2="676" y2="944" stroke="#0F2AB8" stroke-width="22"/>
+ <line x1="676" y1="80" x2="676" y2="944" stroke="#fff" stroke-width="3" stroke-dasharray="16 12"/>
+ <!-- sleeve ring top -->
+ <rect x="640" y="96" width="72" height="96" rx="8" fill="none" stroke="#fff" stroke-width="4"/>
+ <!-- tick marks -->
+ <g stroke="#fff" stroke-width="3"><line x1="720" y1="560" x2="760" y2="560"/><line x1="720" y1="640" x2="760" y2="640"/><line x1="740" y1="560" x2="740" y2="640"/></g>
+ <text x="96" y="140" font-family="Inter" font-weight="600" font-size="40" letter-spacing="6" fill="#fff" fill-opacity=".85">GUIDED</text>
+ <text x="96" y="190" font-family="Inter" font-weight="400" font-size="40" letter-spacing="6" fill="#fff" fill-opacity=".6">STUDY</text>
+</svg>
